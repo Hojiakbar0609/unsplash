@@ -27,7 +27,7 @@ function Navbar() {
   }, [theme])
   return (
     <div className=' flex items-center py-10 border-b border-base-300'>
-        <div className='max-w-md mx-auto w-full'>
+        <div className='max-w-md mx-auto w-full px-4'>
         <div className='flex justify-between'>
           <h1 className=" text-center text-2xl font-bold mb-5 capitalize">find images</h1> 
           <label className="swap swap-rotate">
